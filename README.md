@@ -29,7 +29,9 @@ Artykuł przedstawia mechanizm SpoofDefender, który wykrywa i blokuje próby po
 
 R. Xiao, H. Zhu, C. Song, X. Liu, J. Dong and H. Li, "Attacking Network Isolation in Software-Defined Networks: New Attacks and Countermeasures," 2018 27th International Conference on Computer Communication and Networks (ICCCN), Hangzhou, China, 2018, pp. 1-9, doi: 10.1109/ICCCN.2018.8487340. keywords: {IP networks;Control systems;Protocols;Cloud computing;Data centers;Monitoring;Security},
 
+## Topologia
 
+Scenariusz badawczy zostanie zweryfikowany z użyciem topologii Spine-Leaf, która została wybrana ze względu na swoją powszechność w nowoczesnych centrach danych oraz sieciach korporacyjnych. Próby ataków IP spoofing będą przeprowadzane z przejętego hosta końcowego (h1), natomiast weryfikacja i filtrowanie ruchu będą realizowane na brzegowym przełączniku warstwy dostępowej (Leaf) za pośrednictwem kontrolera SDN.
 
 ---
 
