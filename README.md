@@ -14,6 +14,12 @@ Projekt implementujący reaktywny mechanizm obrony sieciowej. Narzędzie łączy
 * **Dynamiczne blokowanie:** Automatyczna reakcja na incydenty i tymczasowe izolowanie adresów IP atakujących na poziomie firewalla
 * (TPD czy do zrobienia) **Rejestrowanie zdarzeń:** Centralne logowanie alertów w formacie ułatwiającym analizę powłamaniową.
 
+## Literatura
+
+1. REFLO: Reactive Firewall System with OpenFlow and Flow Monitoring System
+Artykuł przedstawia system monitorowania przepływów sieciowych w SDN, który wykorzystuje kontroler Floodlight i protokół OpenFlow do analizowania ruchu oraz kierowania wybranych pakietów do firewalla Snort. W kontekście naszego projektu najważniejsza jest możliwość monitorowania adresów IP źródłowych i docelowych oraz dynamicznego kierowania podejrzanego ruchu do analizy przez firewall, co może posłużyć jako podstawa wykrywania IP Spoofing.
+2. Attacking Network Isolation in Software-Defined Networks: New Attacks and Countermeasures
+Artykuł przedstawia mechanizm SpoofDefender, który wykrywa i blokuje próby podszywania się pod inne urządzenia w sieci SDN poprzez weryfikację zgodności adresów IP, MAC oraz portu przełącznika przypisanego do danego użytkownika. W kontekście naszego projektu szczególnie istotne jest sprawdzanie, czy źródłowy adres IP pakietu odpowiada wcześniej zarejestrowanemu urządzeniu, co pozwala wykrywać i blokować pakiety zawierające sfałszowane adresy IP.
 ---
 
 ## Zespół projektowy
