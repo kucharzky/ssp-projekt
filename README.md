@@ -24,6 +24,7 @@ Artykuł przedstawia system monitorowania przepływów sieciowych w SDN, który 
 2. Attacking Network Isolation in Software-Defined Networks: New Attacks and Countermeasures
    
 Artykuł przedstawia mechanizm SpoofDefender, który wykrywa i blokuje próby podszywania się pod inne urządzenia w sieci SDN poprzez weryfikację zgodności adresów IP, MAC oraz portu przełącznika przypisanego do danego użytkownika. W kontekście naszego projektu szczególnie istotne jest sprawdzanie, czy źródłowy adres IP pakietu odpowiada wcześniej zarejestrowanemu urządzeniu, co pozwala wykrywać i blokować pakiety zawierające sfałszowane adresy IP.
+
 ---
 
 ## Zespół projektowy
